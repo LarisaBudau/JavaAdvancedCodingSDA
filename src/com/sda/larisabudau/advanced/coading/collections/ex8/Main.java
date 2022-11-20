@@ -14,30 +14,30 @@ package com.sda.larisabudau.advanced.coading.collections.ex8;
 public class Main {
     public static void main(String[] args) {
 
-        WeaponMagazine weaponMagazin = new WeaponMagazine(8);
+        WeaponMagazine weaponMagazine = new WeaponMagazine(8);
 
-        weaponMagazin.loadBullet("Bullet1");
-        weaponMagazin.loadBullet("Bullet2");
-        weaponMagazin.loadBullet("Bullet3");
-        weaponMagazin.loadBullet("Bullet4");
-        weaponMagazin.loadBullet("Bullet5");
-        weaponMagazin.loadBullet("Bullet6");
-        weaponMagazin.loadBullet("Bullet7");
-        weaponMagazin.loadBullet("Bullet8");
-        weaponMagazin.loadBullet("Bullet9");
+        weaponMagazine.loadBullet("Bullet1");
+        weaponMagazine.loadBullet("Bullet2");
+        weaponMagazine.loadBullet("Bullet3");
+        weaponMagazine.loadBullet("Bullet4");
+        weaponMagazine.loadBullet("Bullet5");
+        weaponMagazine.loadBullet("Bullet6");
+        weaponMagazine.loadBullet("Bullet7");
+        weaponMagazine.loadBullet("Bullet8");
+        weaponMagazine.loadBullet("Bullet9");
 
-        System.out.println(weaponMagazin.isLoaded());
+        System.out.println(weaponMagazine.isLoaded());
 
-        weaponMagazin.shot();
-        weaponMagazin.shot();
-        weaponMagazin.shot();
-        weaponMagazin.shot();
-        weaponMagazin.shot();
-        weaponMagazin.shot();
-        weaponMagazin.shot();
-        weaponMagazin.shot();
-        weaponMagazin.shot();
+        weaponMagazine.shot();
+        weaponMagazine.shot();
+        weaponMagazine.shot();
+        weaponMagazine.shot();
+        weaponMagazine.shot();
+        weaponMagazine.shot();
+        weaponMagazine.shot();
+        weaponMagazine.shot();
+        weaponMagazine.shot();
 
-        System.out.println(weaponMagazin.isLoaded());
+        System.out.println(weaponMagazine.isLoaded());
     }
 }
